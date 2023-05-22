@@ -1,0 +1,9 @@
+from typing import Optional, List
+
+from pydantic import BaseModel
+
+class Caption_schema(BaseModel):
+    Idx : int = ...
+    original_caption : str = ...
+    ImageIdx : int = ...
+    danger : List[str]
