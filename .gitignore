@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 *.jpg
 *.mp3
+*.pt
+*.zip
